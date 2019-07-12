@@ -7,6 +7,8 @@
         parent::__construct($app);
     }
     public function Index(){
+      $res = 查询出来的内容;
+      $this->assign('res',$res);
       return $this->fetch();
     }
   }
