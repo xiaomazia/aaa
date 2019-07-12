@@ -6,4 +6,7 @@
     {
         parent::__construct($app);
     }
+    public function Index(){
+      return $this->fetch();
+    }
   }
