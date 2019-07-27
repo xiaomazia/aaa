@@ -11,4 +11,7 @@
       $this->assign('res',$res);
       return $this->fetch();
     }
+    public function detil(){
+      
+    }
   }
